@@ -1,0 +1,28 @@
+LatiPy v0.2 - INICIO RAPIDO (Windows)
+====================================
+
+1) Extrae TODO el ZIP en una carpeta, por ejemplo Escritorio\LatiPy_v0.2.
+2) Abre esa carpeta. Haz clic en la barra de direccion, escribe cmd y pulsa Enter.
+3) Comprueba Python con:
+       py --version
+   Si sale que no se reconoce, prueba:
+       python --version
+4) Ejecuta el ejemplo facil:
+       py latipy.py ejemplos\hola_facil.lpy
+   Si usas el comando python, cambia py por python.
+5) Comprueba la sintaxis sin ejecutar:
+       py latipy.py --comprobar ejemplos\hola_facil.lpy
+6) Mira la traduccion a Python:
+       py latipy.py --ver-traduccion ejemplos\hola_facil.lpy
+7) Ejecuta pruebas internas:
+       py latipy.py --pruebas
+8) Ejecuta todas las pruebas automaticas:
+       py -m unittest discover -s pruebas -v
+
+Para editar programas: Bloc de notas sirve; guarda como Tipo: Todos los archivos,
+con nombre termina en .lpy y codificacion UTF-8.
+
+Importante: LatiPy v0.2 es un prototipo educativo que traduce a Python. No es una
+sandbox. No ejecutes archivos de desconocidos; pueden borrar archivos o hacer otras
+acciones que Python permita. Requiere Python 3.10 o posterior y no requiere instalar
+librerias externas.
